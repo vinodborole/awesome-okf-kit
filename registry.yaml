@@ -1,0 +1,13 @@
+# awesome-okf-kit registry — the machine-readable index `okf get` reads.
+# Add your bundle with a PR (see CONTRIBUTING.md). Required: name, source_url,
+# description, license, download. Publish ONLY content you may redistribute.
+
+- name: rust-book
+  source_url: https://doc.rust-lang.org/book/
+  description: "The Rust Programming Language — the official book."
+  license: "MIT OR Apache-2.0"
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/rust-book-okf
+  download: https://github.com/vinodborole/rust-book-okf/releases/latest/download/rust-book-okf.zip
+  okf_version: "0.1"
+  tags: [rust, programming, book, docs]

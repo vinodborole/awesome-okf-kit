@@ -1,0 +1,44 @@
+name: Validate registry
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Schema check
+        run: python scripts/validate_registry.py
+      - name: Conformance-check changed bundles
+        # On PRs, download each bundle's zip and run `okf validate`.
+        if: github.event_name == 'pull_request'
+        run: |
+          pip install okf-kit
+          python - <<'PY'
+          import subprocess, sys, tempfile, urllib.request, zipfile, os, yaml
+          entries = yaml.safe_load(open("registry.yaml")) or []
+          fail = 0
+          for e in entries:
+              url = e.get("download")
+              if not url:
+                  continue
+              try:
+                  with tempfile.TemporaryDirectory() as d:
+                      z = os.path.join(d, "b.zip")
+                      urllib.request.urlretrieve(url, z)
+                      zipfile.ZipFile(z).extractall(d)
+                      root = next(p for p in os.listdir(d) if os.path.isdir(os.path.join(d, p)))
+                      rc = subprocess.run(["okf", "validate", os.path.join(d, root)]).returncode
+                      if rc != 0:
+                          print(f"::error::{e['name']} failed okf validate"); fail = 1
+              except Exception as ex:  # noqa
+                  print(f"::warning::{e['name']}: could not fetch/validate ({ex})")
+          sys.exit(fail)
+          PY
