@@ -12,3 +12,14 @@
   okf_version: "0.1"
   pages: 109
   tags: [rust, programming, book, docs]
+
+- name: backstage-book
+  source_url: https://backstage.io/docs/
+  description: "Backstage — CNCF platform for building developer portals; the official docs."
+  license: "Apache-2.0"
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/backstage-book-okf
+  download: https://github.com/vinodborole/backstage-book-okf/releases/latest/download/backstage-book-okf.zip
+  okf_version: "0.1"
+  pages: 139
+  tags: [backstage, developer-portal, cncf, docs]

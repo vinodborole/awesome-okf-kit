@@ -28,6 +28,7 @@ them, and `okf get` downloads the zip, validates it, and installs it to
 | Bundle | Source | License | Tags |
 |---|---|---|---|
 | [`rust-book`](https://github.com/vinodborole/rust-book-okf) | [doc.rust-lang.org/book](https://doc.rust-lang.org/book/) | MIT OR Apache-2.0 | rust, programming, book, docs |
+| [`backstage-book`](https://github.com/vinodborole/backstage-book-okf) | [backstage.io/docs](https://backstage.io/docs/) | Apache-2.0 | backstage, developer-portal, cncf, docs |
 <!-- CATALOG:END -->
 
 ## Publish your bundle
