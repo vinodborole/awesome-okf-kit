@@ -37,13 +37,17 @@ them, and `okf get` downloads the zip, validates it, and installs it to
 
 | Bundle | Source | License | Pages |
 |---|---|---|---|
+| [`astro-book`](https://github.com/vinodborole/astro-book-okf) | [docs.astro.build](https://docs.astro.build/) | MIT | 90 |
 | [`fastapi-book`](https://github.com/vinodborole/fastapi-book-okf) | [fastapi.tiangolo.com](https://fastapi.tiangolo.com/tutorial/) | MIT | 51 |
 | [`flask-book`](https://github.com/vinodborole/flask-book-okf) | [flask.palletsprojects.com](https://flask.palletsprojects.com/en/stable/) | BSD-3-Clause | 74 |
+| [`svelte-book`](https://github.com/vinodborole/svelte-book-okf) | [svelte.dev](https://svelte.dev/docs) | MIT | 90 |
+| [`tailwind-book`](https://github.com/vinodborole/tailwind-book-okf) | [tailwindcss.com](https://tailwindcss.com/docs) | MIT | 87 |
 
 ### Libraries & Tools
 
 | Bundle | Source | License | Pages |
 |---|---|---|---|
+| [`bun-book`](https://github.com/vinodborole/bun-book-okf) | [bun.sh](https://bun.sh/docs) | MIT | 90 |
 | [`httpx-book`](https://github.com/vinodborole/httpx-book-okf) | [python-httpx.org](https://www.python-httpx.org/) | BSD-3-Clause | 23 |
 
 ### Platforms & DevOps
