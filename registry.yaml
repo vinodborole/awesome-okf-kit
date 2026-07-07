@@ -152,3 +152,40 @@
   okf_version: "0.1"
   pages: 90
   tags: [bun, javascript, runtime, toolkit, docs]
+
+# ── Data & ML (Tier-3) ────────────────────────────────────────────────────
+- name: duckdb-book
+  source_url: https://duckdb.org/docs/
+  description: "DuckDB — the in-process analytical SQL database (official docs)."
+  license: "MIT"
+  category: Data & ML
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/duckdb-book-okf
+  download: https://github.com/vinodborole/duckdb-book-okf/releases/latest/download/duckdb-book-okf.zip
+  okf_version: "0.1"
+  pages: 80
+  tags: [duckdb, sql, database, analytics, docs]
+
+- name: polars-book
+  source_url: https://docs.pola.rs/
+  description: "Polars — the fast DataFrame library for Python & Rust (official docs)."
+  license: "MIT"
+  category: Data & ML
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/polars-book-okf
+  download: https://github.com/vinodborole/polars-book-okf/releases/latest/download/polars-book-okf.zip
+  okf_version: "0.1"
+  pages: 90
+  tags: [polars, dataframe, python, rust, docs]
+
+- name: dbt-book
+  source_url: https://docs.getdbt.com/
+  description: "dbt — the analytics engineering / data-transformation framework (official docs)."
+  license: "Apache-2.0"
+  category: Data & ML
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/dbt-book-okf
+  download: https://github.com/vinodborole/dbt-book-okf/releases/latest/download/dbt-book-okf.zip
+  okf_version: "0.1"
+  pages: 90
+  tags: [dbt, data, analytics, sql, docs]
