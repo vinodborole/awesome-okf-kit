@@ -23,6 +23,7 @@
      publisher: github.com/you
      repo: https://github.com/you/your-docs-okf
      download: https://github.com/you/your-docs-okf/releases/latest/download/your-docs-okf.zip
+     category: AI & Agents          # optional — groups it on the website
      okf_version: "0.1"
      tags: [docs, topic]
    ```
