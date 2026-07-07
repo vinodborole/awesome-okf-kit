@@ -23,3 +23,36 @@
   okf_version: "0.1"
   pages: 139
   tags: [backstage, developer-portal, cncf, docs]
+
+- name: fastapi-book
+  source_url: https://fastapi.tiangolo.com/tutorial/
+  description: "FastAPI — the official tutorial (Python web framework)."
+  license: "MIT"
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/fastapi-book-okf
+  download: https://github.com/vinodborole/fastapi-book-okf/releases/latest/download/fastapi-book-okf.zip
+  okf_version: "0.1"
+  pages: 51
+  tags: [fastapi, python, web, api, docs]
+
+- name: flask-book
+  source_url: https://flask.palletsprojects.com/en/stable/
+  description: "Flask — the official documentation (Python web framework)."
+  license: "BSD-3-Clause"
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/flask-book-okf
+  download: https://github.com/vinodborole/flask-book-okf/releases/latest/download/flask-book-okf.zip
+  okf_version: "0.1"
+  pages: 74
+  tags: [flask, python, web, docs]
+
+- name: httpx-book
+  source_url: https://www.python-httpx.org/
+  description: "HTTPX — a next-generation HTTP client for Python (the one okf-kit runs on)."
+  license: "BSD-3-Clause"
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/httpx-book-okf
+  download: https://github.com/vinodborole/httpx-book-okf/releases/latest/download/httpx-book-okf.zip
+  okf_version: "0.1"
+  pages: 23
+  tags: [httpx, python, http, client, docs]
