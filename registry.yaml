@@ -103,3 +103,52 @@
   okf_version: "0.1"
   pages: 109
   tags: [rust, programming, book, docs]
+
+# ── Tier-2 (JS ecosystem) ─────────────────────────────────────────────────
+- name: astro-book
+  source_url: https://docs.astro.build/
+  description: "Astro — the web framework for content-driven sites (official docs)."
+  license: "MIT"
+  category: Web & Frameworks
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/astro-book-okf
+  download: https://github.com/vinodborole/astro-book-okf/releases/latest/download/astro-book-okf.zip
+  okf_version: "0.1"
+  pages: 90
+  tags: [astro, web, framework, javascript, docs]
+
+- name: svelte-book
+  source_url: https://svelte.dev/docs
+  description: "Svelte & SvelteKit — the official documentation."
+  license: "MIT"
+  category: Web & Frameworks
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/svelte-book-okf
+  download: https://github.com/vinodborole/svelte-book-okf/releases/latest/download/svelte-book-okf.zip
+  okf_version: "0.1"
+  pages: 90
+  tags: [svelte, sveltekit, web, javascript, docs]
+
+- name: tailwind-book
+  source_url: https://tailwindcss.com/docs
+  description: "Tailwind CSS — the utility-first CSS framework (official docs)."
+  license: "MIT"
+  category: Web & Frameworks
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/tailwind-book-okf
+  download: https://github.com/vinodborole/tailwind-book-okf/releases/latest/download/tailwind-book-okf.zip
+  okf_version: "0.1"
+  pages: 87
+  tags: [tailwind, css, web, styling, docs]
+
+- name: bun-book
+  source_url: https://bun.sh/docs
+  description: "Bun — the fast all-in-one JavaScript runtime & toolkit (official docs)."
+  license: "MIT"
+  category: Libraries & Tools
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/bun-book-okf
+  download: https://github.com/vinodborole/bun-book-okf/releases/latest/download/bun-book-okf.zip
+  okf_version: "0.1"
+  pages: 90
+  tags: [bun, javascript, runtime, toolkit, docs]
