@@ -1,33 +1,51 @@
 # awesome-okf-kit registry — the machine-readable index `okf get` reads.
 # Add your bundle with a PR (see CONTRIBUTING.md). Required: name, source_url,
-# description, license, download. Publish ONLY content you may redistribute.
+# description, license, download. Optional: category (groups it on the website),
+# pages, tags. Publish ONLY content you may redistribute.
 
-- name: rust-book
-  source_url: https://doc.rust-lang.org/book/
-  description: "The Rust Programming Language — the official book."
-  license: "MIT OR Apache-2.0"
+# ── AI & Agents ───────────────────────────────────────────────────────────
+- name: mcp-book
+  source_url: https://modelcontextprotocol.io/docs
+  description: "Model Context Protocol — the official docs for wiring agents to tools & context."
+  license: "CC-BY-4.0"
+  category: AI & Agents
   publisher: github.com/vinodborole
-  repo: https://github.com/vinodborole/rust-book-okf
-  download: https://github.com/vinodborole/rust-book-okf/releases/latest/download/rust-book-okf.zip
+  repo: https://github.com/vinodborole/mcp-book-okf
+  download: https://github.com/vinodborole/mcp-book-okf/releases/latest/download/mcp-book-okf.zip
   okf_version: "0.1"
-  pages: 109
-  tags: [rust, programming, book, docs]
+  pages: 16
+  tags: [mcp, agents, ai, protocol, docs]
 
-- name: backstage-book
-  source_url: https://backstage.io/docs/
-  description: "Backstage — CNCF platform for building developer portals; the official docs."
-  license: "Apache-2.0"
+- name: pydantic-ai-book
+  source_url: https://ai.pydantic.dev/
+  description: "Pydantic AI — a type-safe Python agent framework from the Pydantic team."
+  license: "MIT"
+  category: AI & Agents
   publisher: github.com/vinodborole
-  repo: https://github.com/vinodborole/backstage-book-okf
-  download: https://github.com/vinodborole/backstage-book-okf/releases/latest/download/backstage-book-okf.zip
+  repo: https://github.com/vinodborole/pydantic-ai-book-okf
+  download: https://github.com/vinodborole/pydantic-ai-book-okf/releases/latest/download/pydantic-ai-book-okf.zip
   okf_version: "0.1"
-  pages: 139
-  tags: [backstage, developer-portal, cncf, docs]
+  pages: 90
+  tags: [pydantic, ai, agents, llm, python, docs]
 
+- name: dspy-book
+  source_url: https://dspy.ai/
+  description: "DSPy — Stanford's framework for programming (not prompting) language models."
+  license: "MIT"
+  category: AI & Agents
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/dspy-book-okf
+  download: https://github.com/vinodborole/dspy-book-okf/releases/latest/download/dspy-book-okf.zip
+  okf_version: "0.1"
+  pages: 70
+  tags: [dspy, ai, agents, llm, prompting, docs]
+
+# ── Web & Frameworks ──────────────────────────────────────────────────────
 - name: fastapi-book
   source_url: https://fastapi.tiangolo.com/tutorial/
   description: "FastAPI — the official tutorial (Python web framework)."
   license: "MIT"
+  category: Web & Frameworks
   publisher: github.com/vinodborole
   repo: https://github.com/vinodborole/fastapi-book-okf
   download: https://github.com/vinodborole/fastapi-book-okf/releases/latest/download/fastapi-book-okf.zip
@@ -39,6 +57,7 @@
   source_url: https://flask.palletsprojects.com/en/stable/
   description: "Flask — the official documentation (Python web framework)."
   license: "BSD-3-Clause"
+  category: Web & Frameworks
   publisher: github.com/vinodborole
   repo: https://github.com/vinodborole/flask-book-okf
   download: https://github.com/vinodborole/flask-book-okf/releases/latest/download/flask-book-okf.zip
@@ -46,13 +65,41 @@
   pages: 74
   tags: [flask, python, web, docs]
 
+# ── Libraries & Tools ─────────────────────────────────────────────────────
 - name: httpx-book
   source_url: https://www.python-httpx.org/
   description: "HTTPX — a next-generation HTTP client for Python (the one okf-kit runs on)."
   license: "BSD-3-Clause"
+  category: Libraries & Tools
   publisher: github.com/vinodborole
   repo: https://github.com/vinodborole/httpx-book-okf
   download: https://github.com/vinodborole/httpx-book-okf/releases/latest/download/httpx-book-okf.zip
   okf_version: "0.1"
   pages: 23
   tags: [httpx, python, http, client, docs]
+
+# ── Platforms & DevOps ────────────────────────────────────────────────────
+- name: backstage-book
+  source_url: https://backstage.io/docs/
+  description: "Backstage — CNCF platform for building developer portals; the official docs."
+  license: "Apache-2.0"
+  category: Platforms & DevOps
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/backstage-book-okf
+  download: https://github.com/vinodborole/backstage-book-okf/releases/latest/download/backstage-book-okf.zip
+  okf_version: "0.1"
+  pages: 139
+  tags: [backstage, developer-portal, cncf, docs]
+
+# ── Languages & Learning ──────────────────────────────────────────────────
+- name: rust-book
+  source_url: https://doc.rust-lang.org/book/
+  description: "The Rust Programming Language — the official book."
+  license: "MIT OR Apache-2.0"
+  category: Languages & Learning
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/rust-book-okf
+  download: https://github.com/vinodborole/rust-book-okf/releases/latest/download/rust-book-okf.zip
+  okf_version: "0.1"
+  pages: 109
+  tags: [rust, programming, book, docs]
