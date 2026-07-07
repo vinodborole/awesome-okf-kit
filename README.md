@@ -43,6 +43,14 @@ them, and `okf get` downloads the zip, validates it, and installs it to
 | [`svelte-book`](https://github.com/vinodborole/svelte-book-okf) | [svelte.dev](https://svelte.dev/docs) | MIT | 90 |
 | [`tailwind-book`](https://github.com/vinodborole/tailwind-book-okf) | [tailwindcss.com](https://tailwindcss.com/docs) | MIT | 87 |
 
+### Data & ML
+
+| Bundle | Source | License | Pages |
+|---|---|---|---|
+| [`dbt-book`](https://github.com/vinodborole/dbt-book-okf) | [docs.getdbt.com](https://docs.getdbt.com/) | Apache-2.0 | 90 |
+| [`duckdb-book`](https://github.com/vinodborole/duckdb-book-okf) | [duckdb.org](https://duckdb.org/docs/) | MIT | 80 |
+| [`polars-book`](https://github.com/vinodborole/polars-book-okf) | [docs.pola.rs](https://docs.pola.rs/) | MIT | 90 |
+
 ### Libraries & Tools
 
 | Bundle | Source | License | Pages |
