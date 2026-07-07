@@ -29,6 +29,9 @@ them, and `okf get` downloads the zip, validates it, and installs it to
 |---|---|---|---|
 | [`rust-book`](https://github.com/vinodborole/rust-book-okf) | [doc.rust-lang.org/book](https://doc.rust-lang.org/book/) | MIT OR Apache-2.0 | rust, programming, book, docs |
 | [`backstage-book`](https://github.com/vinodborole/backstage-book-okf) | [backstage.io/docs](https://backstage.io/docs/) | Apache-2.0 | backstage, developer-portal, cncf, docs |
+| [`fastapi-book`](https://github.com/vinodborole/fastapi-book-okf) | [fastapi.tiangolo.com](https://fastapi.tiangolo.com/tutorial/) | MIT | fastapi, python, web, api, docs |
+| [`flask-book`](https://github.com/vinodborole/flask-book-okf) | [flask.palletsprojects.com](https://flask.palletsprojects.com/en/stable/) | BSD-3-Clause | flask, python, web, docs |
+| [`httpx-book`](https://github.com/vinodborole/httpx-book-okf) | [python-httpx.org](https://www.python-httpx.org/) | BSD-3-Clause | httpx, python, http, client, docs |
 <!-- CATALOG:END -->
 
 ## Publish your bundle
