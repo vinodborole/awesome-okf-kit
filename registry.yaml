@@ -189,3 +189,15 @@
   okf_version: "0.1"
   pages: 90
   tags: [dbt, data, analytics, sql, docs]
+  
+- name: meshapi-book
+  source_url: https://developers.meshapi.ai/
+  description: "MeshAPI is an AI model gateway that gives you instant access to a massive variety of LLMs through a single, unified API. Whether you’re building simple chatbots or complex multi-agent architectures, MeshAPI allows you to seamlessly switch between models without changing your code structure.."
+  license: "Paid"
+  category: Data & ML
+  publisher: github.com/vinodborole
+  repo: https://github.com/vinodborole/meshapi-book
+  download: https://github.com/vinodborole/meshapi-book/releases/latest/download/meshapi-book-okf.zip
+  okf_version: "0.1"
+  pages: 90
+  tags: [api, docs]
