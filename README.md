@@ -63,6 +63,7 @@ them, and `okf get` downloads the zip, validates it, and installs it to
 | Bundle | Source | License | Pages |
 |---|---|---|---|
 | [`backstage-book`](https://github.com/vinodborole/backstage-book-okf) | [backstage.io](https://backstage.io/docs/) | Apache-2.0 | 139 |
+| [`meshapi-book`](https://github.com/vinodborole/meshapi-book) | [developers.meshapi.ai](https://developers.meshapi.ai/) |  | 23 | 138 |
 
 ### Languages & Learning
 
